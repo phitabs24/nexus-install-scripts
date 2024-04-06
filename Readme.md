@@ -36,10 +36,13 @@ This article guides you to install and configure Sonatype Nexus 3 in a secure wa
 
 **Step 1:** Login to your Linux server 
 **Step 2:** Install git and clone this repository.
+**Step 3:** Change directory to the cloned repository and run the installation script as root user.
 
 ```console
 sudo yum install git -y
 git clone https://github.com/phitabs24/nexus-install-scripts.git
+cd nexus-install-scripts
+sudo bash nexus-install-redhat.sh
 ```
 
 **Step 2:** Change directory to the cloned repository and run the installation script as root user.
